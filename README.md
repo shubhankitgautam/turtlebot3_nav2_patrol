@@ -5,13 +5,13 @@ Python script for TurtleBot3 patrol in Gazebo using ROS2 Nav2, where the robot a
 This project demonstrates a patrolling robot using TurtleBot3 in ROS 2 and Gazebo. The robot starts at an initial position, navigates through all predefined rooms one by one, returns to its starting point, waits for a few seconds, and then repeats the sequence. The automation is handled using a Python script, while Navigation2 (Nav2) ensures accurate path planning and obstacle avoidance. This setup is ideal for surveillance, inspection, and monitoring applications, showcasing autonomous navigation and task repetition in a simulated environment.
 
 ## Features
-✅ Autonomous Patrolling – Robot visits all rooms in a predefined sequence.
-✅ Return to Start – Always returns to its initial position before repeating the patrol.
-✅ Delay Between Cycles – Waits for 5 seconds at the starting position before beginning the next cycle.
-✅ Python Automation – Patrolling logic implemented in a Python script for easy customization.
-✅ ROS 2 Navigation2 Integration – Uses Nav2 for path planning, obstacle avoidance, and localization.
-✅ Simulated Environment – Fully tested in TurtleBot3 Gazebo simulation with RViz2 visualization.
-✅ Modular and Extensible – Easy to add new rooms, change routes, or integrate with real TurtleBot3 hardware.
+Autonomous Patrolling – Robot visits all rooms in a predefined sequence.
+Return to Start – Always returns to its initial position before repeating the patrol.
+Delay Between Cycles – Waits for 5 seconds at the starting position before beginning the next cycle.
+Python Automation – Patrolling logic implemented in a Python script for easy customization.
+ROS 2 Navigation2 Integration – Uses Nav2 for path planning, obstacle avoidance, and localization.
+Simulated Environment – Fully tested in TurtleBot3 Gazebo simulation with RViz2 visualization.
+Modular and Extensible – Easy to add new rooms, change routes, or integrate with real TurtleBot3 hardware.
 
 ## Requirements
 - **OS:** Ubuntu 22.04  
